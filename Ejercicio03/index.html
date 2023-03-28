@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form id="Ejercicio3">
+    <div class="inputContainer">
+        <input type="text" id="time" placeholder="Tiempos">
+        <label for="time">Tiempos</label>
+        <p id="openModal">?</p>
+    </div>
+    <button type="submit">Enviar</button>
+    <p id="resultEjercicio03"></p>
+</form>
+<div id="modalContainer" class="modalContainer--hide">
+    <div id="modal">
+        <h1>Instrucciones</h1>
+        <p>Debes ingresar todos los tiempos que consideres. Solo recuerda, los números decimales se separan por punto(.) y los tiempos los debes separar con coma(,)</p>
+        <p class="warning">No pueden haber ni puntos ni comas al inicio o al final, debes colocar al menos 1 tiempo y no pueden ir mas de una coma unidas(,,) o más de un punto unidos(..), ni tampoco se aceptan letras u otro tipo de caracteres</p>
+        <button id="closeModal">Aceptar</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
