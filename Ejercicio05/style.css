@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body{
-    font-family: 'Roboto', sans-serif;
-    background-color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
 }
 
-#Ejercicio4{
+#Ejercicio5{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -22,7 +20,7 @@ body{
     gap: 2rem;
 }
 
-#Ejercicio4 input{
+#Ejercicio5 input{
     width: 300px;
     height: 50px;
     border: 1px solid #ccc;
@@ -33,41 +31,8 @@ body{
     color: #333;
 }
 
-#Ejercicio4 input::placeholder{
+#Ejercicio5 input::placeholder{
     color: transparent;
-}
-
-#Ejercicio4 select{
-    width: 300px;
-    height: 50px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 0 10px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: #333;
-}
-
-#Ejercicio4 button{
-    width: 300px;
-    height: 50px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 0 10px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: #fff;
-    background-color: #00b1ff;
-    cursor: pointer;
-}
-
-#Ejercicio4 button:hover{
-    background-color: #00a1ff;
-}
-
-#Ejercicio4 #resultEjercicio04
-{
-    font-family: 'Montserrat', sans-serif;
 }
 
 .inputContainer{
@@ -85,17 +50,44 @@ body{
     transition: all 0.3s ease;
 }
 
-
-.inputContainer input:focus ~ label {
+.inputContainer input:focus ~ label{
     top: -1rem;
     left: 10px;
     font-size: 12px;
     color: #00b1ff;
 }
 
-.inputContainer input:not(:placeholder-shown) ~ label {
+.inputContainer input:not(:placeholder-shown) ~ label{
     top: -1rem;
     left: 10px;
     font-size: 12px;
     color: #000;
+}
+
+#Ejercicio5 select{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+#Ejercicio5 button{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #00b1ff;
+    cursor: pointer;
+}
+
+#Ejercicio5 button:hover{
+    background-color: #00a1ff;
 }
